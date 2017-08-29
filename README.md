@@ -31,7 +31,7 @@ Avro phonetic implementation for Linux in IBus.
 
 2. Now give the following commands step-by-step:
 
-    __For Debian & Ubuntu Based Distros__
+    __For Debian & Ubuntu Based Distros___
 
 		git clone git://github.com/tuhintoxin/ibus-avro.git
 		cd ibus-avro
@@ -40,7 +40,7 @@ Avro phonetic implementation for Linux in IBus.
 		sudo make install
 		sudo rm -rf ibus-avro/ (or delete ibus-avro folder from home folder)
 		
-    __For Arch Based Distros__
+    __For Arch Based Distros___
     
     		git clone git://github.com/tuhintoxin/ibus-avro.git
 		cd ibus-avro
