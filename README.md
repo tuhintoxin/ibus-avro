@@ -40,8 +40,9 @@ Avro phonetic implementation for Linux in IBus.
 		sudo make install
 		sudo rm -rf ibus-avro/ (or delete ibus-avro folder from home folder)
 		
-    __For Arch Based Distros___
-    
+   
+   __For Arch Based Distros___
+   
     		git clone git://github.com/tuhintoxin/ibus-avro.git
 		cd ibus-avro
 		makepkg -si
