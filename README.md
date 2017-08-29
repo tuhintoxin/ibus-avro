@@ -19,19 +19,23 @@ Avro phonetic implementation for Linux in IBus.
     
     	sudo apt-get install git ibus libibus-1.0-dev automake autoconf gjs gir1.2-gjsdbus-1.0 gir1.2-ibus-1.0
 	
-    __For Ubuntu Arch Based Linux (Manjaro, AntergOS)__
+   
+   __For Arch Based Linux (Manjaro, AntergOS)__
     
     	sudo pacman -S git ibus automake autoconf gjs
 	
-    __For other linux distributions__
+   
+   __For other linux distributions__
     
     You'll need all related build tools like `automake`, `autoconf` etc...
     and Latest __IBus__ from _git_ compiled with _gobject-introspection_ support enabled.
 
 
+
 2. Now give the following commands step-by-step:
 
-    __For Debian & Ubuntu Based Distros___
+   
+   __For Debian & Ubuntu Based Distros___
 
 		git clone git://github.com/tuhintoxin/ibus-avro.git
 		cd ibus-avro
@@ -58,7 +62,8 @@ Avro phonetic implementation for Linux in IBus.
  6. Now restart __IBus__ from the top panel icon (`Right Click -> Restart`)
  7. Now Press `Ctrl+Space` to toggle between _English_ and _Avro_ (Bengali)
  8. Enjoy __Avro Phonetic!__
- 
+
+
  ## Usage Arch based distros
  1. Run __IBus__ (`Search for ibus preferances and open it `)
  2. Go to `Input method`
@@ -75,5 +80,6 @@ __IBus Engine__ by __Sarim Khan__ <sarim2005@gmail.com>
 [__Avro JavaScript Phonetic Library__](https://github.com/torifat/jsAvroPhonetic) by [__Rifat Nabi__](https://github.com/torifat)
 
 __Avro Phonetic Dictionary Search Library__ by [__Mehdi Hasan Khan__](https://github.com/omicronlab)
+
 
 _Licensed under Mozilla Public License 1.1 ("MPL"), an open source/free software license._
