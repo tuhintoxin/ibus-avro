@@ -42,6 +42,7 @@ Avro phonetic implementation for Linux in IBus.
 		aclocal && autoconf && automake --add-missing
 		./configure --prefix=/usr
 		sudo make install
+		cd
 		sudo rm -rf ibus-avro/ (or delete ibus-avro folder from home folder)
 		
    
@@ -50,6 +51,7 @@ Avro phonetic implementation for Linux in IBus.
 		git clone git://github.com/tuhintoxin/ibus-avro.git
 		cd ibus-avro
 		makepkg -si
+		cd
 		sudo rm -Rf ibus-avro/ (or delete ibus-avro folder from home folder)
 
 
